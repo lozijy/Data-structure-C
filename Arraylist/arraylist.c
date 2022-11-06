@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+
+#include <stdio.h>
 #include "arraylist.h"
 
 #define ARRAYLIST_DEAUFALT_SIZE 4
