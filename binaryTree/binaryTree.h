@@ -1,0 +1,8 @@
+//
+// Created by lonux on 2022/12/1.
+//
+
+#ifndef DATA_STRUCTURE_C_BINARYTREE_C_H
+#define DATA_STRUCTURE_C_BINARYTREE_C_H
+
+#endif //DATA_STRUCTURE_C_BINARYTREE_C_H
