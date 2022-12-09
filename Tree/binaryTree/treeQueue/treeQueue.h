@@ -5,7 +5,7 @@
 #ifndef DATA_STRUCTURE_C_TREEQUEUE_H
 #define DATA_STRUCTURE_C_TREEQUEUE_H
 #define DEFAULT_SIZE 30
-#include "../binaryTree/binaryTree.h"
+#include "../binaryTree.h"
 typedef struct Queue{
     int size;
     int front;

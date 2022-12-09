@@ -5,6 +5,7 @@
         "cstdlib": "c",
         "cwchar": "c",
         "cwctype": "c",
-        "cstdint": "c"
+        "cstdint": "c",
+        "queue.h": "c"
     }
 }

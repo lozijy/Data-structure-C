@@ -1,0 +1,8 @@
+# ninja log v5
+0	88	6922122813220625	CMakeFiles/Data-struct-C.dir/test.c.obj	925c0b285c38224d
+109	255	6922685129666095	Data-struct-C.exe	439477eac024372e
+2	109	6922685128254166	CMakeFiles/Data-struct-C.dir/Graph/GraphAdjList.c.obj	3ca2be7bafd4a088
+2	156	6922685910762779	build.ninja	c0fc1043d14d145e
+2	113	6922683891963779	CMakeFiles/Data-struct-C.dir/Queue/queue.c.obj	dfc9156d726da415
+2	110	6922685939058257	CMakeFiles/Data-struct-C.dir/Graph/Queue/queue.c.obj	cc8ff7df8cb2b68e
+111	221	6922685940214428	Data-struct-C.exe	18ce87179c0142b2

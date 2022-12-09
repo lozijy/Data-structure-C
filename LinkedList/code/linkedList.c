@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<assert.h>
 #include<stdio.h>
+#include<stdint.h>
 Node* creatNode(int val){
     Node* node=(Node*) malloc(sizeof(Node));
     node->val=val;
