@@ -49,17 +49,11 @@ cmake_ninja_workdir = D$:/project/vscodeproject/cproject/Data-structure-C/cmake-
 
 build cmake_object_order_depends_target_Data-struct-C: phony || CMakeFiles/Data-struct-C.dir
 
-build CMakeFiles/Data-struct-C.dir/Graph/GraphAdjList.c.obj: C_COMPILER__Data-struct-C_Debug D$:/project/vscodeproject/cproject/Data-structure-C/Graph/GraphAdjList.c || cmake_object_order_depends_target_Data-struct-C
-  DEP_FILE = CMakeFiles\Data-struct-C.dir\Graph\GraphAdjList.c.obj.d
+build CMakeFiles/Data-struct-C.dir/sort/HeapSort.c.obj: C_COMPILER__Data-struct-C_Debug D$:/project/vscodeproject/cproject/Data-structure-C/sort/HeapSort.c || cmake_object_order_depends_target_Data-struct-C
+  DEP_FILE = CMakeFiles\Data-struct-C.dir\sort\HeapSort.c.obj.d
   FLAGS = -g -std=gnu11
   OBJECT_DIR = CMakeFiles\Data-struct-C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Data-struct-C.dir\Graph
-
-build CMakeFiles/Data-struct-C.dir/Graph/Queue/queue.c.obj: C_COMPILER__Data-struct-C_Debug D$:/project/vscodeproject/cproject/Data-structure-C/Graph/Queue/queue.c || cmake_object_order_depends_target_Data-struct-C
-  DEP_FILE = CMakeFiles\Data-struct-C.dir\Graph\Queue\queue.c.obj.d
-  FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles\Data-struct-C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Data-struct-C.dir\Graph\Queue
+  OBJECT_FILE_DIR = CMakeFiles\Data-struct-C.dir\sort
 
 
 # =============================================================================
@@ -69,7 +63,7 @@ build CMakeFiles/Data-struct-C.dir/Graph/Queue/queue.c.obj: C_COMPILER__Data-str
 #############################################
 # Link the executable Data-struct-C.exe
 
-build Data-struct-C.exe: C_EXECUTABLE_LINKER__Data-struct-C_Debug CMakeFiles/Data-struct-C.dir/Graph/GraphAdjList.c.obj CMakeFiles/Data-struct-C.dir/Graph/Queue/queue.c.obj
+build Data-struct-C.exe: C_EXECUTABLE_LINKER__Data-struct-C_Debug CMakeFiles/Data-struct-C.dir/sort/HeapSort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Data-struct-C.dir

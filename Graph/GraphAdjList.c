@@ -14,7 +14,6 @@ typedef struct EdgeNode{
 }EdgeNode;
 //顶点表节点
 typedef struct VertexNode{
-    int mark;
     EdgeNode* firstEdge;
 }VertexNode;
 //图
@@ -22,7 +21,7 @@ typedef struct {
     VertexNode adjList[MAXVEX];
     int numVertexes,numEdges;
     int type;
-}GraphAdjList;
+}GraphAdjList;//12345
 
 //创建邻接矩阵图，v_num为点的数目，type为是否为有向图，relations代表二元关系(用int表示编号，且最小为1)，n为二元关系数.
 GraphAdjList *CreateAlGraph(int v_num ,int type,int relations[][3],int n){
@@ -35,7 +34,6 @@ GraphAdjList *CreateAlGraph(int v_num ,int type,int relations[][3],int n){
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < 2; ++j) {
             G->adjList[relations[i][j]-1].firstEdge = NULL;
-            G->adjList[relations[i][j]-1].mark=0;
         }
     }
     //定义边
@@ -49,17 +47,7 @@ GraphAdjList *CreateAlGraph(int v_num ,int type,int relations[][3],int n){
     }
     //如果是无向图则多一步操作
     if(type==0) {
-        for (int i = 0; i < n; ++i) {    int relations[][3] = {
-        {1, 2, 3},
-        {2, 3, 4},
-        {2, 4, 7},
-        {2, 5,10},
-        {3, 6, 2},
-        {4, 3, 10},
-        {5, 6, 7}
-    };
-    int n = 7;
-    int v_num = 6;
+        for (int i = 0; i < n; ++i) {
             e= (EdgeNode *)malloc(sizeof (EdgeNode));
             e->adjvex=relations[i][0]-1;
             e->weight=relations[i][2];

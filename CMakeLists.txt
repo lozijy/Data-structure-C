@@ -5,9 +5,10 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Data-struct-C
 #        test.c
-        Graph/GraphAdjList.c
-        Graph/Queue/queue.c
-        Graph/Queue/queue.h
+#        Graph/GraphAdjList.c
+#        Graph/Queue/queue.c
+#        Graph/Queue/queue.h
 #        Queue/queue.h
 #        Queue/queue.c
+        sort/HeapSort.c
         )

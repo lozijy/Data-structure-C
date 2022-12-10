@@ -55,8 +55,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -93,15 +92,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				2
+				0
 			]
 		}
 	],
@@ -110,19 +101,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Graph/GraphAdjList.c",
+			"path" : "sort/HeapSort.c",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Graph/Queue/queue.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Graph/Queue/queue.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
